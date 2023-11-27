@@ -20,7 +20,7 @@
         - name: repo-checkout
           uses: actions/checkout@v3
           with:
-            repository: ${{repository-name}}
+            repository: ${{inputs.repository-name}}
             ref: main
         - name: 'Authenticate to Google Cloud'
           id: 'auth'
