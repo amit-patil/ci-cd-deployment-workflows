@@ -5,6 +5,9 @@
         repository-name:
           required: true
           type: string
+        ref:
+          required: false
+          type: string
   env:
     IMAGE_NAME: java-helloworld
     PROJECT_ID: banktestproject-398809
